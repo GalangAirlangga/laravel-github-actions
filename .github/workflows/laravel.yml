@@ -32,7 +32,7 @@ jobs:
     - name: Install NPM dependencies
       run: npm install
     - name: Compile assets for production
-      run: npm run dev
+      run: npm run production
     - name: Create Database
       run: |
         mkdir -p database
